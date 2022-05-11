@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.box1{
+  position:absolute;
+  font-size: 30px;
+  /* color: rgb(236, 67, 52); */
+  bottom: 60px;
+  left: 140px;
+  padding: 20px; /* inside box */
+  margin: 20px; /* outside box */
+}
