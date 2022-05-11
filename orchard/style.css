@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.link{
+  font-size: 25px;
+  background-color: rgb(225, 9, 9);
+  position:absolute;
+  top: 130px;
+  left: 90px;
+  padding: 20px; /* inside box */
+  margin: 20px; /* outside box */
+  width: 110px;
+}
+
+.link2{
+  font-size: 25px;
+  background-color: rgb(255, 111, 21);
+  position:absolute;
+  top: 260px;
+  right: 160px;
+  padding: 20px; /* inside box */
+  margin: 20px; /* outside box */
+  width: 140px;
+}
