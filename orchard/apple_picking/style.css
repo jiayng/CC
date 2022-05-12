@@ -6,12 +6,32 @@ canvas {
   display: block;
 }
 
-.box1{
-  position:absolute;
+.text{
   font-size: 30px;
-  /* color: rgb(236, 67, 52); */
-  bottom: 60px;
-  left: 140px;
-  padding: 20px; /* inside box */
+  position:absolute;
+  bottom: 50px;
+  left: 200px;
+  padding: 10px; /* inside box */
   margin: 20px; /* outside box */
+}
+
+.text2{
+  background-color: red;
+  color:white;
+  font-size: 15px;
+  position:absolute;
+  top: 250px;
+  left: 250px;
+  padding: 0px; /* inside box */
+  margin: 20px; /* outside box */
+}
+
+.back{
+  font-size: 25px;
+  position:absolute;
+  top: 100px;
+  left: 100px;
+  padding: 10px; /* inside box */
+  margin: 20px; /* outside box */
+  /* width: 110px; */
 }

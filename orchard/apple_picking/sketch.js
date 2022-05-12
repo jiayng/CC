@@ -19,7 +19,7 @@ function draw() {
 }
   image(orchard, 700, 350);
   imageMode(CENTER);
-  orchard.resize(700, 450);
+  orchard.resize(792, 524);
   
 class Apple {
   constructor(startX, startY){

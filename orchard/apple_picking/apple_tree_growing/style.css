@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.first{
+  position:absolute;
+  top: 600px;
+  left: 300px;
+}
+
+.second{
+  position:absolute;
+  bottom: 600px;
+  right: 200px;
+}
+
+.back{
+  font-size: 25px;
+  position:absolute;
+  top: 100px;
+  left: 100px;
+  padding: 10px; /* inside box */
+  margin: 20px; /* outside box */
+  /* width: 110px; */
+}

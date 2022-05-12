@@ -9,22 +9,32 @@ canvas {
 
 .link{
   font-size: 25px;
-  background-color: rgb(225, 9, 9);
+  background-color: rgb(162, 206, 123);
   position:absolute;
-  top: 130px;
-  left: 90px;
-  padding: 20px; /* inside box */
+  bottom: 300px;
+  left: 350px;
+  padding: 10px; /* inside box */
   margin: 20px; /* outside box */
-  width: 110px;
+  /* width: 110px; */
 }
 
 .link2{
   font-size: 25px;
-  background-color: rgb(255, 111, 21);
+  background-color: rgb(150, 204, 129);
   position:absolute;
-  top: 260px;
-  right: 160px;
-  padding: 20px; /* inside box */
+  top: 220px;
+  right: 430px;
+  padding: 10px; /* inside box */
   margin: 20px; /* outside box */
-  width: 140px;
+  /* width: 140px; */
+}
+
+.link3{
+  font-size: 40px;
+  position:absolute;
+  bottom: 200px;
+  right: 780px;
+  padding: 10px; /* inside box */
+  margin: 20px; /* outside box */
+  /* width: 140px; */
 }
