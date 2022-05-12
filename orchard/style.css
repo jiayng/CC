@@ -38,3 +38,15 @@ canvas {
   margin: 20px; /* outside box */
   /* width: 140px; */
 }
+
+.text{
+  font-size: 15px;
+  background-color: rgb(18, 64, 23);
+  color:aliceblue;
+  position:absolute;
+  top: 200px;
+  left: 280px;
+  padding: 10px; /* inside box */
+  margin: 20px; /* outside box */
+}
+

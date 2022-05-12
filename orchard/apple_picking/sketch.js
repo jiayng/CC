@@ -13,28 +13,29 @@ function setup() {
 
 function draw() {
   background(255);
+  
+  image(orchard, 700, 350);
+  imageMode(CENTER);
+  orchard.resize(792, 524);
   for (var i = 0; i < apples.length; i++) {
     apples[i].display();
   
 }
-  image(orchard, 700, 350);
-  imageMode(CENTER);
-  orchard.resize(792, 524);
   
+
+}
 class Apple {
   constructor(startX, startY){
 this.x = startX;
 this.y = startY;
   }
   display(){
-  
-  circle(mouseX, mouseY, 100);
-//image(apple, mouseX, mouseY);
+  image(apple, this.x, this.y, 100, 100);
+    
   }
 }
-  function mousePressed() {
+function mousePressed() {
     var a = new Apple(mouseX, mouseY);
     apples.push(a);
+    console.log(apples);
   }
-
-}

@@ -1,11 +1,13 @@
 let cats = [];
 let curImage = 0;
+let meow;
 
 function preload(){
   for (let i =1; i <17; i ++) {
  let filename = 'assets/cat' + i + '.jpg'
  let cat = loadImage(filename);
   cats.push(cat);
+meow = loadSound('meow.mp3');
 }
 }
 
@@ -23,4 +25,7 @@ function draw() {
     curImage= (curImage +1) % cats.length;
   }
   
+}
+function mousePressed() {
+  meow.play();
 }

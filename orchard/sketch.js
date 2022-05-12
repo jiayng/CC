@@ -16,8 +16,8 @@ function draw() {
 
   image(home, 700, 400);
   imageMode(CENTER);
+}
 
 function mousePressed() {
-    birdsounds.play();
-  }
+  birdsounds.play();
 }

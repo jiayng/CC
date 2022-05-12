@@ -13,28 +13,27 @@ function setup() {
 
 function draw() {
   background(255);
-  for (var i = 0; i < oranges.length; i++) {
-    oranges[i].display();
-  
-}
+
   image(orangepicking, 700, 352);
   imageMode(CENTER);
   orangepicking.resize(792, 524);
   
+  for (var i = 0; i < oranges.length; i++) {
+    oranges[i].display();
+  
+}
+
+}
 class Orange {
   constructor(startX, startY){
 this.x = startX;
 this.y = startY;
   }
   display(){
-  
-  circle(mouseX, mouseY, 100);
-//image(orange, mouseX, mouseY);
+image(orange, this.x, this.y, 100, 100);
   }
 }
   function mousePressed() {
     var o = new Orange(mouseX, mouseY);
     oranges.push(o);
   }
-
-}
